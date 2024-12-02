@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-appstudio/sample-image:{{revision}}
+    value: quay.io/redhat-user-workloads/rhn-suport-djodha-tenant/the-mentalist-quiz/the-mentalist-quiz:{{revision}}
   - name: dockerfile
     value: Dockerfile
   pipelineSpec:
